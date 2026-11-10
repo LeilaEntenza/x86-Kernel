@@ -6,7 +6,7 @@ void kmain(void) {
 
     while(j < 80*25*2){
         vidptr[j] = ' ';
-        vidptr[j+1] = 0x13/d;
+        vidptr[j+1] = 0x5;
         j = j + 2;
     }
 
@@ -14,7 +14,7 @@ void kmain(void) {
 
     while(str[j] != '\0'){
         vidptr[i] = str[j];
-        vidptr[i+1] =  0x13/d;
+        vidptr[i+1] =  0x5;
         ++j;
         i = i + 2;
     }
